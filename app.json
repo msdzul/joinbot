@@ -21,22 +21,22 @@
         },
         "SUDO_USERS": {
             "description": "List of sudo user ids seperated by space.",
-            "value": "999197022 00000000"
+            "value": ""
         }
     },
     "addons": [
         {
             "plan": "heroku-postgresql",
             "options": {
-                "version": "12"
+                "version": "16"
             }
         }
     ],
-    "stack": "heroku-20",
+    "stack": "heroku-22",
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "free"
+            "size": "basic"
         }
     }
 }
